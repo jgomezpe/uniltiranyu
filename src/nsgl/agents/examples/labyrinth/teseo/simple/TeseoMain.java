@@ -1,8 +1,6 @@
-package nsgl.agents.examples.labyrinth.teseo;
+package nsgl.agents.examples.labyrinth.teseo.simple;
 import nsgl.agents.Agent;
 import nsgl.agents.examples.labyrinth.*;
-import nsgl.agents.examples.labyrinth.teseo.simple.RandomReflexTeseo;
-import nsgl.agents.examples.labyrinth.teseo.simple.TeseoSimple;
 import nsgl.agents.simulate.util.*;
 
 public class TeseoMain {
@@ -15,8 +13,7 @@ public class TeseoMain {
 
   public static void main( String[] argv ){
     //  InteractiveAgentProgram p = new InteractiveAgentProgram( getLanguage() );
-    TeseoSimple p = new TeseoSimple();
-    //RandomReflexTeseo p = new RandomReflexTeseo();
+    RandomReflexTeseo p = new RandomReflexTeseo();
     p.setLanguage(getLanguage());
     LabyrinthDrawer.DRAW_AREA_SIZE = 600;
     LabyrinthDrawer.CELL_SIZE = 40;

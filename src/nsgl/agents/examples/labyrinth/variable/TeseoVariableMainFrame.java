@@ -12,7 +12,7 @@ import nsgl.agents.examples.labyrinth.LabyrinthMainFrame;
 import nsgl.agents.examples.labyrinth.teseo.TeseoPerceptDrawer;
 import nsgl.agents.examples.labyrinth.teseo.simple.SimpleTeseoJavaProgrammingFrame;
 import nsgl.agents.simulate.util.SimpleLanguage;
-import nsgl.java.awt.LogOutputStream;
+import nsgl.gui.awt.LogOutputStream;
 
 public class TeseoVariableMainFrame extends LabyrinthMainFrame {
 	protected double probability;

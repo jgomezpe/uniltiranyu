@@ -24,7 +24,7 @@ import nsgl.agents.simulate.gui.SimpleView;
 import nsgl.agents.simulate.gui.WorkingPanel;
 import nsgl.agents.simulate.util.InteractiveAgentProgram;
 import nsgl.agents.simulate.util.SimpleLanguage;
-import nsgl.java.awt.FileFilter;
+import nsgl.gui.awt.FileFilter;
 
 public class SokobanMainFrame extends JFrame {
 

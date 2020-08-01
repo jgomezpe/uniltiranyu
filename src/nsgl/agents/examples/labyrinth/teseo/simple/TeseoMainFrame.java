@@ -1,4 +1,4 @@
-package nsgl.agents.examples.labyrinth.teseo;
+package nsgl.agents.examples.labyrinth.teseo.simple;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -6,9 +6,10 @@ import javax.swing.*;
 
 import nsgl.agents.*;
 import nsgl.agents.examples.labyrinth.*;
-import nsgl.agents.examples.labyrinth.teseo.simple.*;
+import nsgl.agents.examples.labyrinth.teseo.TeseoLabyrinth;
+import nsgl.agents.examples.labyrinth.teseo.TeseoPerceptDrawer;
 import nsgl.agents.simulate.util.*;
-import nsgl.java.awt.LogOutputStream;
+import nsgl.gui.awt.LogOutputStream;
 
 /**
  * Title:
