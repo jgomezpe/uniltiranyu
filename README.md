@@ -1,6 +1,11 @@
 # uniltiranyu
 An intelligent agent framework. It includes some classical games (reversi, sokoban, fourinrow, bullsandcows, sudoku) modified with thinking time restriction, and some labyrinth problems for developing intelligent agent programs and simulated architectures. It can use some of the <A HREF="https://github.com/jgomezpe/fwew/">fwew</A> search algorithms.
 
+&nbsp;Requires: kerno.jar, speco.jar, kompari.jar, matematiko.jar, spuro.jar, aplikigo.jar, and fwew.jar
+
+&nbsp;Available at <A HREF="https://github.com/jgomezpe/libs/">https://github.com/jgomezpe/libs/</A>
+
+
 <h3>Version 1.0</h3>
 <h3>Copyright (c)</h3>
 &nbsp;Author: <A HREF="https://disi.unal.edu.co/~jgomezpe/"> Jonatan Gomez-Perdomo </A>
