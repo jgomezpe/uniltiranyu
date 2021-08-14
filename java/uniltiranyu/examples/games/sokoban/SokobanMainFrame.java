@@ -19,7 +19,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import aplikigo.gui.awt.FileFilter;
+import aplikigo.awt.FileFilter;
 import uniltiranyu.Agent;
 import uniltiranyu.simulate.gui.SimpleView;
 import uniltiranyu.simulate.gui.WorkingPanel;

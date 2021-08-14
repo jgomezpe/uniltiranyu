@@ -21,9 +21,9 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JToolBar;
 
-import aplikigo.gui.awt.FileFilter;
-import aplikigo.gui.awt.LogPanel;
-import aplikigo.java.JavaOS;
+import aplikigo.awt.FileFilter;
+import aplikigo.awt.LogPanel;
+import aplikigo.reflection.OperatingSystem;
 
 
 /**
@@ -201,7 +201,7 @@ String title = "Ambiente para Teseo";
     sb.append( "public class TheAgentProgram extends SimpleTeseoAgentProgram{\n" );
     sb.append( jTextArea1.getText() );
     sb.append( "\n}\n" );
-    String fileName = JavaOS.systemPath("classes/TheAgentProgram");
+    String fileName = OperatingSystem.systemPath("classes/TheAgentProgram");
     File file = new File(path);
     try{
       file.mkdir();
@@ -216,7 +216,7 @@ String title = "Ambiente para Teseo";
       e.printStackTrace();
     }
 
-    aplikigo.java.compiler.Compiler compiler = new aplikigo.java.compiler.Compiler();
+    aplikigo.reflection.Compiler compiler = new aplikigo.reflection.Compiler();
     String pathName = (new File(".")).getAbsolutePath();
     pathName = pathName.substring(0, pathName.length()-1);
     compiler.addClassPath(pathName+"lib/agents.jar");

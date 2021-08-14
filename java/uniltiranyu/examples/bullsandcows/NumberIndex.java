@@ -5,6 +5,7 @@
 package uniltiranyu.examples.bullsandcows;
 
 import speco.array.Array;
+import speco.array.ArrayMultiSet;
 
 /**
  *
@@ -38,7 +39,8 @@ public class NumberIndex {
 
 	public int getIndex( int[] option, int n, Array<Integer> check ){
 		if( n==option.length ) return 0;
-		int pos = check.find(option[n]);
+		ArrayMultiSet<Integer> search = new ArrayMultiSet<Integer>(check); 
+		int pos = search.first(option[n]);
 		check.remove(pos);        
 		n++;
 		return pos*options[positions-n] + getIndex(option, n, check);

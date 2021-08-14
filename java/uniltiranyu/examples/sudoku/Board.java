@@ -90,15 +90,13 @@ public class Board {
         this();
         int n = DIGITS*DIGITS;
         Array<Integer> place = new Array<Integer>();
-        for( int i=0; i<n; i++ ){
-            place.add( new Integer(i) );
-        }
+        for( int i=0; i<n; i++ ) place.add(i);
 
         try{
 	        for( int k=0; k<emptyPlaces; k++ ){
 	            int m = (int)(n*g.nextDouble());
-	            int tmp = ((Integer)place.get(m)).intValue();
-	            place.del(m);
+	            int tmp = place.get(m);
+	            place.remove(m);
 	            m = tmp;
 	            int i = m / DIGITS;
 	            int j = m % DIGITS;

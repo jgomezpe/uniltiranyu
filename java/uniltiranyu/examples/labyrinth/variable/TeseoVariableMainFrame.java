@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.JMenuItem;
 
-import aplikigo.gui.awt.LogOutputStream;
+import aplikigo.awt.LogOutputStream;
 import uniltiranyu.Agent;
 import uniltiranyu.examples.labyrinth.Labyrinth;
 import uniltiranyu.examples.labyrinth.LabyrinthDrawer;

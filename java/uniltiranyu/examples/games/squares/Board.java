@@ -13,14 +13,14 @@ import java.awt.Graphics;
  * @author Jonatan
  */
 public class Board {
-    protected static final int LEFT = 1;
-    protected static final int TOP = 2;
-    protected static final int RIGHT = 4;
-    protected static final int BOTTOM = 8;
-    protected static final int WHITE = 16;
-    protected static final int BLACK = 32;
+    public static final int LEFT = 1;
+    public static final int TOP = 2;
+    public static final int RIGHT = 4;
+    public static final int BOTTOM = 8;
+    public static final int WHITE = 16;
+    public static final int BLACK = 32;
     
-    protected int[][] values;
+    public int[][] values;
     
     protected static int[][] init( int n, int m ){        
         int[][] values = new int[n][m];        
