@@ -1,5 +1,5 @@
 # uniltiranyu
-An intelligent agent framework. It includes some classical games (reversi, sokoban, fourinrow, bullsandcows, sudoku) modified with thinking time restriction, and some labyrinth problems for developing intelligent agent programs and simulated architectures. It can some of the <A HREF="https://github.com/jgomezpe/fwew/">fwew</A> search algorithms.
+An intelligent agent framework. It includes some classical games (reversi, sokoban, fourinrow, bullsandcows, sudoku) modified with thinking time restriction, and some labyrinth problems for developing intelligent agent programs and simulated architectures. It can use some of the <A HREF="https://github.com/jgomezpe/fwew/">fwew</A> search algorithms.
 
 <h3>Version 1.0</h3>
 <h3>Copyright (c)</h3>
